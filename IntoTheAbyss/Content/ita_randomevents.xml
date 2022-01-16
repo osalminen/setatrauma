@@ -29,8 +29,8 @@
       <MonsterEvent characterfile="Husk" minamount="2" maxamount="3" spawntype="wreck"  maxintensity="1.0" allowonlyonce="false"/>
     </EventSet>
 	
-	    <!-- always spawn a couple of artifacts	 -->
-    <EventSet chooserandom="true" eventcount="2" allowatstart="true" triggereventcooldown="false">
+	    <!-- always spawn one artifacts	 -->
+    <EventSet chooserandom="true" eventcount="1" allowatstart="true" triggereventcooldown="false">
       <ArtifactEvent itemidentifier="skyholderartifact" />
       <ArtifactEvent itemidentifier="thermalartifact" />
       <ArtifactEvent itemidentifier="nasonovartifact" />
