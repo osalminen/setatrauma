@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+EventSet
+  chooserandom                = true/false. If true, one of the events in the set is chosen randomly, otherwise all of them are used.
+  eventcount                  = how many random events to choose if chooserandom is set to true.
+  mindistancetraveled         = 0-1. How large portion of the level must the submarine traverse before the event can be activated.
+  minmissiontime              = How many seconds must have passed before the event can be activated. Note that the event activates 
+                                if either mindistancetraveled OR minmissiontime is reached. If you want to make the event purely 
+                                time-based or only distance-based, you can set the distance or time limit to a very high value.
+  minintensity, maxintensity  = 0-1. Eventmanager's intensity value must be within this range for the event to be activated. 
+                                Use the minintensity value to prevent the event from occurring when intensity is low (i.e. when there's
+                                no immediate danger or much going on in the sub), and the maxintensity value to prevent activating 
+                                additional events if there crew is already in trouble.
+  minleveldifficulty,
+  maxleveldifficulty          = 0-100, both inclusive.
+  ignorecooldown              = true/false (defaults to false, or the setting of the parent event set if used in a child set).
+                                If true, the global event cooldowns configured in the event manager settings are ignored.
+  allowatstart                = true/false (defaults to false). Can the event be activated when the submarine hasn't left the start outpost.
+  perruin                     = true/false (defaults to false). If true, the event set is applied for each alien ruin in the level.
+  perwreck                    = true/false (defaults to false). If true, the event set is applied for each wreck in the level.
+  percave                     = true/false (defaults to false). If true, the event set is applied for each cave in the level.  
+  onceperoutpost              = true/false (defaults to false). If true, this event set is only executed the first time you visit the outpost.
+  triggereventcooldown        = true/false (defaults to true). Should the event cooldown be triggered when the event set triggers, 
+                                i.e. when the set triggers, should there be a delay during which additional events can't trigger. If set to false,
+                                the triggereventcooldown settings of the individual events in the set are ignored.
+  delaywhencrewaway           = true/false (defaults to true if perruin, perwreck and percave are false, otherwise defaults to false).
+                                If true, the events in the set are delayed if more than 50% of the human players are outside the sub near a ruin, wreck or cave.
+  disableinhuntinggrounds     = true/false (defaults to false). If true, the event set won't trigger if the level has an active hunting grounds.
+  
+Any type of event
+  commonness              = Used for making some events more probable than others when the set is defined to choose randomTechnically the weight of a weighted random.
+  triggereventcooldown    = true/false (defaults to true). Should the event cooldown be triggered when the event triggers, 
+                            i.e. should there be a delay after the event during which additional events can't trigger.
+  
+MonsterEvent 
+  characterfile           = the identifier of the monster to spawn
+  amount                  = how many of the monster to spawn
+  minamount, maxamount    = use to configure a random number of monsters to spawn
+  spawntype               = Where to spawn the monster(s): MainPath, SidePath, Cave, Ruin, Wreck, BeaconStation, Abyss.
+  spawnprobability        = 0-1. How likely is it that this event spawns any creatures.
+  scatter                 = default 500, max 3000. How far the monsters on a single spawn point are scattered/spread around the point. In pixels.
+  offset                  = Use to offset some of the monsters farther from the spawn point than others. The direction is calculated from the waypoints towards the next outpost (in the main path). In pixels.
+  maxamountperlevel       = Maximum number of this type of monster in the level. E.g. if set to 1, and another event or a mission has already spawned the same type of monster, the event won't spawn an additional one.
+  spawndistance           = The distance at which the monsters are spawned. Defaults are, 8000px for caves, 5000 for ruins, and 3000 for wreck spawns.
+                            Ignored for all the other spawn types unless specified, meaning the monsters spawn when the event is triggered.
+-->
+
+<Randomevents>
+ 
+</Randomevents>
