@@ -1,0 +1,107 @@
+Emphasis on immersion and making the world more alive. No ridiculous mobs or guns that break the game. Avoiding new items, general clutter and op changes to jobs.
+Barotrauma is about misery, not all QoL upgrades are good.
+
+[h1]Contents[/h1]
+[olist]
+[*]Step by step
+[*]Modlist
+[*]Possible problems
+[*]Compatibility
+[/olist]
+
+[h1]Step by step guide[/h1] 
+
+[h2]Client[/h2]
+Everyone needs to do these changes, hosts and clients.
+[olist]
+[*]Subscribe to all items in the collection
+[*][url=https://steamcommunity.com/sharedfiles/filedetails?id=2199555403]Download[/url] AeonWrecks, unable to add to the collection
+[*][url=https://github.com/osalminen/setatrauma/tree/master]Download[/url] manual changes and drop to Mods folder
+[*]Launch game, go to settings, enable all of the mods.
+[*][url=https://i.imgur.com/LC2ZBkn.png]Enable[/url] LUA for Barotrauma content pack
+[*]Set mod load order
+[olist]
+[*]Haz + advanced medical
+[*]Advanced medical
+[*]Haz + ITA
+[*]IntoTheAbyss
+[*]DynamicEuropa
+[*]Everything else alphabetically
+[*]Remove alive crew menu remover from loaded mods, breaks the campaign.
+[/olist]
+[*]Restart game
+[*]Check mod load order, it can change on it's own
+[/olist]
+
+[h2]Host only additional stuff[/h2]
+Only host needs to do these changes, also might break vanilla gameplay.
+[h3]Unknown artifacts [Artifacts extended][/h3]
+Take the randomevents_campaign.xml from Hostfiles and drop it to ...Barotrauma/Content
+[h3]Local voice fix[/h3]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2362585294]Instructions[/url]
+
+[h1]Modlist[/h1]
+All mods and what they do
+
+[h3]Overhauls[/h3]
+Read the mod descriptions for details
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2488816950] Into the Abyss[/url] - Extended outposts, caves and alien ruins, difficulty increase, occupied beacons. Reactor upgrades replaced by Hazardous reactors.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2547888957] Hazardous reactors[/url] - Making the reactors actually dangerous, read the guide or don't operate nuclear stuff.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2488816950] Advanced medicine[/url] - Let the medic actually do something, read the guide or don't do medical stuff. In game hints are wrong and the game suggests healing items that won't do what you think they do.
+[/list]
+
+[h3]Assets[/h3]
+[list]
+[*]AeonBeaconStations - More varied beacons with a theme
+[*]AeonWrecks - More varied wrecks to be encountered
+[*]Beacons Extended - More varied 'basic' style beacons
+[*]CR's Beacon Mod - Few bigger beacons with backstory and unique feel to them
+[*]Barotrauma audio overhaul - New soundscape
+[/list]
+
+[h3]Immersion[/h3]
+[list]
+[*]DrainingHeadsets - Headsets consume battery
+[*]Unknown artifacts - Artifact ID by sight + new artifacts
+[*]Dynamic Europa - Make the map feel less empty with more frequent locations
+[*]Realistic fall damage - Blunt force trauma from falling, can also break your bones or neck. BFT can't really be healed other than with time, be careful. Tweaked damage down.
+[*]Alive Crew Menu Remover - Can't see who is alive, communication is key.
+[/list]
+
+[h3]QoL[/h3]
+[list]
+[*]Combinable Coilgun Ammo
+[*]Buy and Craft Electrics - Add research stations etc. to any ship
+[*]RIBA Portable Items - Craft shelves, racks etc. Use in moderation.
+[/list]
+
+[h3]Should it be implemented?[/h3]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2295227868&searchtext=]Underwater sledge[/url] - Lugging stuff around easier, but is it too easy?
+[/list]
+
+[h3]Trash pile[/h3]
+[list]
+[*][strike][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2003946282]Thalassophobia[/url] - 2 new classes, extended splicing with mob DNA, extended plants[/strike] Feels like too much and kinda out of place. Botanics would be nice.
+[*][strike][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2183524355]Meaningful upgrades[/url] - Adds upgrade otions. [/strike] Conflict with ITA imo
+[/list]
+
+[h1]Possible problems[/h1]
+[list]
+[*]Breaks single player/bots.
+[*][strike]Unable to finish missions/rounds.[/strike] -Problem in alive crew remover
+[*][strike]Mod load order might be wrong. During testing we had problems with hazardous reactors and ITA integration, realistic fall damage being too much and BAO sound pack being annoying (at least the mobs).[/strike] - BAO removed as annoying, Haz + ITA dev notified, probably reworks the mod. Meanwhile loading the mod in wrong order seems to preserver most of the idea of the mod.
+[*][strike]Fabricator refused to craft some items for some people including the host, this might be due to different mod orders.[/strike] - Should be fixed with identical mod order
+[*]Some of the new beacons and wrecks are HUGE and filled with items, they have a chance of breaking the balance of the game. Some of the smaller new beacons seem to contain loads of items as well, we'll find out eventually how game breaking they are.
+[*]ITA increases difficulty, currently 100% vanilla guns.
+[*]Advanced medical eats supplies, so does tougher mobs. Don't get bitten.
+[/list]
+
+[h1]Compatibility[/h1]
+[list]
+[*]No changes to reactors
+[*]No changes to medical system or changes to afflictions
+[*]No changes to the campaign events file
+[*]Artifacts extended edits the default campaign events file
+[/list]
