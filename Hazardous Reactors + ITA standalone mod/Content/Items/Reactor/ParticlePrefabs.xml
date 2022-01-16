@@ -31,7 +31,7 @@
     blendstate="Additive"
     animduration="1"
     loopanim="False">
-    <sprite texture="Mods/Hazardous Reactors/Content/Items/Reactor/ek_lightflare1.png" sourcerect="0,0,256,256" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="Mods/Hazardous Reactors + ITA standalone mod/Content/Items/Reactor/ek_lightflare1.png" sourcerect="0,0,256,256" origin="0.5,0.5" premultiplyalpha="false" />
   </ekflarelight1>
 
 </override>
@@ -63,7 +63,7 @@
     blendstate="Additive"
     animduration="1"
     loopanim="False">
-    <sprite texture="Mods/Hazardous Reactors/Content/Items/Reactor/ek_lightflare1.png" sourcerect="0,0,256,256" origin="0.5,0.5" premultiplyalpha="false" />
+    <sprite texture="Mods/Hazardous Reactors + ITA standalone mod/Content/Items/Reactor/ek_lightflare1.png" sourcerect="0,0,256,256" origin="0.5,0.5" premultiplyalpha="false" />
   </ekthermiteflare1>
 
 </override>
