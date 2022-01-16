@@ -151,9 +151,26 @@
       <MonsterEvent characterfile="Fractalguardian" minamount="4" maxamount="8" spawntype="ruin"  />
       <MonsterEvent characterfile="Husk" minamount="4" maxamount="8" spawntype="ruin"  />
     </EventSet>
-	<!-- always spawn a couple of artifacts	 -->
-    <ArtifactEvent itemidentifier="skyholderartifact" triggereventcooldown="false" />
-    <ArtifactEvent itemidentifier="thermalartifact" triggereventcooldown="false" />
+    <!-- always spawn a couple of artifacts	 -->
+    <EventSet chooserandom="true" eventcount="2" allowatstart="true" triggereventcooldown="false">
+      <ArtifactEvent itemidentifier="skyholderartifact" />
+      <ArtifactEvent itemidentifier="thermalartifact" />
+      <ArtifactEvent itemidentifier="nasonovartifact" />
+      <ArtifactEvent itemidentifier="faradayartifact" />
+      <ArtifactEvent itemidentifier="psychosisartifact" />
+      <ArtifactEvent itemidentifier="oasisartifact" />
+      <ArtifactEvent itemidentifier="rustartifact" />
+      <ArtifactEvent itemidentifier="infrasonicartifact" />
+      <ArtifactEvent itemidentifier="bloodmoonartifact" />
+      <ArtifactEvent itemidentifier="heartoftheswarmartifact" />
+      <ArtifactEvent itemidentifier="bentrealityartifact" />
+      <ArtifactEvent itemidentifier="sparkartifact" />
+      <ArtifactEvent itemidentifier="pulseartifact" />
+      <ArtifactEvent itemidentifier="vacuumartifact" />
+      <ArtifactEvent itemidentifier="biohazardartifact" />
+      <ArtifactEvent itemidentifier="meltingartifact" />
+      <ArtifactEvent itemidentifier="integrityartifact" />
+    </EventSet>
 	<!-- populate the abyss -->
     <EventSet chooserandom="true" allowatstart="true" triggereventcooldown="false" disableinhuntinggrounds="true">
       <MonsterEvent characterfile="Endworm" minamount="1" maxamount="1" maxamountperlevel="1" spawntype="abyss" />
@@ -242,10 +259,26 @@
 	<EventSet chooserandom="false" allowatstart="true" eventcount="1" ignorecooldown="true">
 		<!--<ScriptedEvent identifier="ita_taxi1mechanic"/>-->
 	</EventSet>
-	<!-- always spawn a couple of artifacts	 -->
-    <ArtifactEvent itemidentifier="thermalartifact" />
-    <ArtifactEvent itemidentifier="skyholderartifact" />
-    <ArtifactEvent itemidentifier="psychosisartifact" />
+    <!-- always spawn a couple of artifacts	 -->
+    <EventSet chooserandom="true" eventcount="3" allowatstart="true" triggereventcooldown="false">
+      <ArtifactEvent itemidentifier="skyholderartifact" />
+      <ArtifactEvent itemidentifier="thermalartifact" />
+      <ArtifactEvent itemidentifier="nasonovartifact" />
+      <ArtifactEvent itemidentifier="faradayartifact" />
+      <ArtifactEvent itemidentifier="psychosisartifact" />
+      <ArtifactEvent itemidentifier="oasisartifact" />
+      <ArtifactEvent itemidentifier="rustartifact" />
+      <ArtifactEvent itemidentifier="infrasonicartifact" />
+      <ArtifactEvent itemidentifier="bloodmoonartifact" />
+      <ArtifactEvent itemidentifier="heartoftheswarmartifact" />
+      <ArtifactEvent itemidentifier="bentrealityartifact" />
+      <ArtifactEvent itemidentifier="sparkartifact" />
+      <ArtifactEvent itemidentifier="pulseartifact" />
+      <ArtifactEvent itemidentifier="vacuumartifact" />
+      <ArtifactEvent itemidentifier="biohazardartifact" />
+      <ArtifactEvent itemidentifier="meltingartifact" />
+      <ArtifactEvent itemidentifier="integrityartifact" />
+    </EventSet>
     <!-- populate the caves -->
     <EventSet chooserandom="true" allowatstart="true" percave="true">
       <MonsterEvent characterfile="Crawler" minamount="1" maxamount="2" spawntype="cave"  />
@@ -357,10 +390,25 @@
     </Commonness>
 
     <!-- always spawn a couple of artifacts	 -->
-    <ArtifactEvent itemidentifier="skyholderartifact" />
-    <ArtifactEvent itemidentifier="thermalartifact" />
-    <ArtifactEvent itemidentifier="nasonovartifact" />
-    <ArtifactEvent itemidentifier="psychosisartifact" />
+    <EventSet chooserandom="true" eventcount="4" allowatstart="true" triggereventcooldown="false">
+      <ArtifactEvent itemidentifier="skyholderartifact" />
+      <ArtifactEvent itemidentifier="thermalartifact" />
+      <ArtifactEvent itemidentifier="nasonovartifact" />
+      <ArtifactEvent itemidentifier="faradayartifact" />
+      <ArtifactEvent itemidentifier="psychosisartifact" />
+      <ArtifactEvent itemidentifier="oasisartifact" />
+      <ArtifactEvent itemidentifier="rustartifact" />
+      <ArtifactEvent itemidentifier="infrasonicartifact" />
+      <ArtifactEvent itemidentifier="bloodmoonartifact" />
+      <ArtifactEvent itemidentifier="heartoftheswarmartifact" />
+      <ArtifactEvent itemidentifier="bentrealityartifact" />
+      <ArtifactEvent itemidentifier="sparkartifact" />
+      <ArtifactEvent itemidentifier="pulseartifact" />
+      <ArtifactEvent itemidentifier="vacuumartifact" />
+      <ArtifactEvent itemidentifier="biohazardartifact" />
+      <ArtifactEvent itemidentifier="meltingartifact" />
+      <ArtifactEvent itemidentifier="integrityartifact" />
+    </EventSet>
 
     <!-- populate the caves -->
     <EventSet chooserandom="true" allowatstart="true" percave="true">
@@ -535,11 +583,25 @@
     </Commonness>
 
     <!-- always spawn a couple of artifacts	 -->
-    <ArtifactEvent itemidentifier="skyholderartifact" />
-    <ArtifactEvent itemidentifier="thermalartifact" />
-    <ArtifactEvent itemidentifier="nasonovartifact" />
-    <ArtifactEvent itemidentifier="faradayartifact" />
-    <ArtifactEvent itemidentifier="psychosisartifact" />
+    <EventSet chooserandom="true" eventcount="5" allowatstart="true" triggereventcooldown="false">
+      <ArtifactEvent itemidentifier="skyholderartifact" />
+      <ArtifactEvent itemidentifier="thermalartifact" />
+      <ArtifactEvent itemidentifier="nasonovartifact" />
+      <ArtifactEvent itemidentifier="faradayartifact" />
+      <ArtifactEvent itemidentifier="psychosisartifact" />
+      <ArtifactEvent itemidentifier="oasisartifact" />
+      <ArtifactEvent itemidentifier="rustartifact" />
+      <ArtifactEvent itemidentifier="infrasonicartifact" />
+      <ArtifactEvent itemidentifier="bloodmoonartifact" />
+      <ArtifactEvent itemidentifier="heartoftheswarmartifact" />
+      <ArtifactEvent itemidentifier="bentrealityartifact" />
+      <ArtifactEvent itemidentifier="sparkartifact" />
+      <ArtifactEvent itemidentifier="pulseartifact" />
+      <ArtifactEvent itemidentifier="vacuumartifact" />
+      <ArtifactEvent itemidentifier="biohazardartifact" />
+      <ArtifactEvent itemidentifier="meltingartifact" />
+      <ArtifactEvent itemidentifier="integrityartifact" />
+    </EventSet>
 
     <!-- populate the caves -->
     <EventSet chooserandom="true" allowatstart="true" percave="true">
