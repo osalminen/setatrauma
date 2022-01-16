@@ -26,12 +26,8 @@
     <WifiComponent range="35000.0" LinkToChat="true" MinChatMessageInterval="0.0">
       <RequiredItems items="mobilebattery" type="Contained" />
     </WifiComponent>
-    <ItemContainer capacity="1" hideitems="true">
-      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="1,70,107,31" />
-      <Containable items="mobilebattery" />
-    </ItemContainer>
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
-			<StatusEffect type="OnWearing" target="Contained" Condition="-0.05">
+	  <StatusEffect type="OnWearing" targettype="Contained" Condition="-0.05">
         <RequiredItem items="batterycell" type="Contained" />
       </StatusEffect>
       <StatusEffect type="OnWearing" target="Contained" Condition="-0.025">
@@ -42,6 +38,11 @@
       </StatusEffect>
       <sprite name="Headset Wearable" texture="Content/Items/Jobgear/headgears.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inherittexturescale="true" hideotherwearables="false" sourcerect="28,321,49,62" origin="0.5,0.6" />
     </Wearable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery">
+      <Containable items="mobilebattery">
+        <StatusEffect type="OnContaining" targettype="This" Voltage="1.0" setvalue="true" />
+      </Containable>
+    </ItemContainer>
   </Item>
   </Override>
 </Items>
