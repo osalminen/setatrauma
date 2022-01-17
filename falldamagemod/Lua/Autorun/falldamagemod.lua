@@ -16,11 +16,11 @@ Hook.Add("changeFallDamage", "testFallDamage", function (amount, character, impa
             local multiplier = 1
             if sqvel > 120 then
                 checkdist = 100
-                multiplier = 1
+                multiplier = 0.2
             end
             if sqvel >= 150 then
                 checkdist = 300
-                multiplier = 2
+                multiplier = 5
             end
             local dmg = (sqvel * 3)/(limb.WorldPosition - impactpos).Length() * multiplier
             if (limb.WorldPosition - impactpos).Length() < checkdist then
