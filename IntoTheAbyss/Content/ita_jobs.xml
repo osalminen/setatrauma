@@ -139,6 +139,7 @@
 			<ItemSet>
 				<Item identifier="orangejumpsuit1" equip="true" outfit="true"/>
 				<Item identifier="idcard" equip="true" showpreview="false"/>
+				<Item identifier="tongs"/>
 				<Item identifier="toolbelt" showpreview="false">
 					<Item identifier="screwdriver"/>
 					<Item identifier="wrench"/>
