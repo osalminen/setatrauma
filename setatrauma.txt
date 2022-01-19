@@ -2,6 +2,10 @@ Emphasis on immersion and making the world more alive. No ridiculous mobs or gun
 Barotrauma is about misery, not all QoL upgrades are good.
 
 [h1]Major Changes [/h1]
+[h3]20.1.2022 [/h3]
+[list]
+[*]Removed Hazardous Reactors + ITA standalone, replaced with HR + ITA patch
+[/list]
 [h3]17.1.2022 [/h3]
 [list]
 [*]Removed meaningful upgrades - Doesn't play well with ITA upgrades
@@ -31,13 +35,14 @@ Everyone needs to do these changes, hosts and clients.
 [olist]
 [*]Haz + advanced medical
 [*]Advanced medical
-[*]Haz + ITA
+[*]Hazardous reactors
 [*]IntoTheAbyss
+[*]Haz + ITA patch
 [*]DynamicEuropa
 [*]Everything else alphabetically
 [/olist]
 [*]Restart game
-[*]Check mod load order, it can change on it's own
+[*]Check mod load order, it can change on it's own. 15 mods + LUA for barotrauma
 [*]If you are hosting the server, make sure to do the host only changes from below
 [/olist]
 
@@ -95,6 +100,7 @@ Read the mod descriptions for details
 [*]Some of the new beacons and wrecks are HUGE and filled with items, they have a chance of breaking the balance of the game. Some of the smaller new beacons seem to contain loads of items as well, we'll find out eventually how game breaking they are.
 [*]Beacon reactor seemed to explode for no reason, further testing required.
 [*]ITA increases difficulty, currently 100% vanilla guns.
+[*]Since AeonBeaconStations is the top beacon mod, are we only loading those beacons? Based on testing I got 3 Aeonbeaconstations beacons.
 [/list]
 
 [h1]Compatibility[/h1]
