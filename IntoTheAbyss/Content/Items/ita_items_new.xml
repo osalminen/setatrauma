@@ -591,11 +591,7 @@
       <Item identifier="steel" />
       <Item identifier="rubber" />
     </Deconstruct>
-    <Fabricate suitablefabricators="fabricator,workbench" requiredtime="10">
-      <RequiredSkill identifier="mechanical" level="25" />
-      <RequiredItem identifier="steel" />
-      <RequiredItem identifier="rubber" />
-    </Fabricate>
+
     <InventoryIcon texture="Mods/IntoTheAbyss/Content/Sprites/icons_ita.png" sourcerect="605,205,124,40" origin="0.5,0.5" />
     <Sprite texture="Mods/IntoTheAbyss/Content/Sprites/icons_ita.png" sourcerect="605,205,230,40" depth="0.55" origin="0.5,0.5" />
     <Body width="120" height="30" density="15" />
