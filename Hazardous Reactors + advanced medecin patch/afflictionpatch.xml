@@ -10,12 +10,12 @@
 			<Effect minstrength="0" maxstrength="100" strengthchange="-200"  >
 		<StatusEffect target="Character" targetlimbs="LeftHand,RightHand,torso" delay="0.5" >
 					<Affliction identifier="burn" amount="5"/>
-		<sound file="Mods\Hazardous Reactors + ITA standalone mod\Content\Items\Medical\fleshburn.ogg" type="OnUse" range="500.0" loop="true" volume="1" />
+		<sound file="Mods\Hazardous Reactors\Content\Items\Medical\fleshburn.ogg" type="OnUse" range="500.0" loop="true" volume="1" />
 		</StatusEffect>
 		
 
 			</Effect>
-		<icon texture="Mods\Hazardous Reactors + ITA standalone mod\Content\Items\Medical\Hot_rod.png" sourcerect="0,0,130,129" origin="0,0" color="195,104,60,255" />
+		<icon texture="Mods\Hazardous Reactors\Content\Items\Medical\Hot_rod.png" sourcerect="0,0,130,129" origin="0,0" color="195,104,60,255" />
 		</Affliction>
 
 </Override>
