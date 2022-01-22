@@ -26,23 +26,31 @@ Barotrauma is about misery, not all QoL upgrades are good.
 [h2]Client[/h2]
 Everyone needs to do these changes, hosts and clients.
 [olist]
-[*]Subscribe to all items in the collection
+[*]Read the overhaul mod details and guides, they change a lot of game mechanics
+[*]Subscribe to all of the items in the collection
 [*][url=https://steamcommunity.com/sharedfiles/filedetails?id=2199555403]Download[/url] AeonWrecks, unable to add to the collection
-[*][url=https://github.com/osalminen/setatrauma/tree/master]Download[/url] manual changes and drop to .../Barotrauma/Mods folder
-[*]Launch game, go to settings, enable all of the mods.
+[*]Launch the game to download all of the mods, once loaded, quit the game.
+[*][url=https://github.com/osalminen/setatrauma/tree/master]Download[/url] manual changes and drop to .../Barotrauma/Mods folder, download is the big green button
+[*]Launch the game and go to settings
 [*][url=https://i.imgur.com/LC2ZBkn.png]Enable[/url] LUA for Barotrauma content pack
-[*]Set mod load order
+[*]Set mod [url=https://raw.githubusercontent.com/osalminen/setatrauma/master/loadorder.PNG]load order[/url] by dragging, from top to bottom
 [olist]
-[*]Haz + advanced medical
-[*]Advanced medical
+[*]Advanced medicine
 [*]Hazardous reactors
+[*]Haz + advanced medical
 [*]IntoTheAbyss
 [*]Haz + ITA patch
 [*]DynamicEuropa
-[*]Everything else alphabetically
+[*]Everything else alphabetically, [ENV] Beacons extended starts with a B
 [/olist]
-[*]Restart game
-[*]Check mod load order, it can change on it's own. 15 mods + LUA for barotrauma
+[*]Enable all of the mods = tick the boxes
+[*]Restart the game
+[*]Errors for following items are normal, caused by stupid modmaking but what can you do
+[list]
+[*]GhostSuit. ita_hazmat1, tongs, guide1, ita_rodsrack 1, 2 and 3
+[*]4 items with emitter or rod in it
+[/list]
+[*]Check mod load order, it can change on it's own. 17 mods + LUA for barotrauma
 [*]If you are hosting the server, make sure to do the host only changes from below
 [/olist]
 
@@ -91,16 +99,20 @@ Read the mod descriptions for details
 [h3]Should it be implemented?[/h3]
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2295227868&searchtext=]Underwater sledge[/url] - Lugging stuff around easier, but is it too easy?
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2475230332]Stun nerf fix[/url] - Apparently stunning was nerfed beyond useless, need to be tested.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2641040775]Let them in[/url] -  Would it be nice if bigger enemies could enter the ship, making it less a safe haven?
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2500953748]Pockets for all[/url] - Doctor gets pockets, why can't everyone else? 2 inventory per clothing
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2297409640]Meaningful drunkness[/url] - Make being drunk actually benefical, now you can kill yourself or friends with it and that's it. Also makes changes to tobacco apparently, which also is useless beyond RP reasons?
 [/list]
 
 [h1]Possible problems[/h1]
 [list]
-[*]Breaks single player/bots.
-[*]Since initial playtesting, haven't encountered crafting problems. Needs more testing.
-[*]Some of the new beacons and wrecks are HUGE and filled with items, they have a chance of breaking the balance of the game. Some of the smaller new beacons seem to contain loads of items as well, we'll find out eventually how game breaking they are.
-[*]Beacon reactor seemed to explode for no reason, further testing required.
-[*]ITA increases difficulty, currently 100% vanilla guns.
+[*]Crafting problems persist, triple check mod load order.
+[*]HR + advanced medicine causes annoying flashing when badly wounded + radiated
+[*]Beacon reactor seemed to explode for no reason (once), further testing required.
 [*]Since AeonBeaconStations is the top beacon mod, are we only loading those beacons? Based on testing I got 3 Aeonbeaconstations beacons.
+[*]Some of the new beacons and wrecks are HUGE and filled with items, they have a chance of breaking the balance of the game. Some of the smaller new beacons seem to contain loads of items as well, we'll find out eventually how game breaking they are.
+[*]Breaks single player/bots.
 [/list]
 
 [h1]Compatibility[/h1]
